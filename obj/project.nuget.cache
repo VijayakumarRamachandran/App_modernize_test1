@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "tKWxZdxaWeA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\v.br.ramachandran\\OneDrive - Accenture\\Documents\\ai\\App_modernize_test1\\App_modernize_test1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\v.br.ramachandran\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.15\\microsoft.aspnetcore.openapi.10.0.15.nupkg.sha512",
+    "C:\\Users\\v.br.ramachandran\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\10.0.15\\microsoft.dotnet.ilcompiler.10.0.15.nupkg.sha512",
+    "C:\\Users\\v.br.ramachandran\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.15\\microsoft.net.illink.tasks.10.0.15.nupkg.sha512",
+    "C:\\Users\\v.br.ramachandran\\.nuget\\packages\\microsoft.openapi\\2.13.0\\microsoft.openapi.2.13.0.nupkg.sha512",
+    "C:\\Users\\v.br.ramachandran\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\10.0.15\\runtime.win-x64.microsoft.dotnet.ilcompiler.10.0.15.nupkg.sha512",
+    "C:\\Users\\v.br.ramachandran\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.15\\microsoft.netcore.app.runtime.win-x64.10.0.15.nupkg.sha512",
+    "C:\\Users\\v.br.ramachandran\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.15\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.15.nupkg.sha512",
+    "C:\\Users\\v.br.ramachandran\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.15\\microsoft.aspnetcore.app.runtime.win-x64.10.0.15.nupkg.sha512",
+    "C:\\Users\\v.br.ramachandran\\.nuget\\packages\\microsoft.netcore.app.runtime.nativeaot.win-x64\\10.0.15\\microsoft.netcore.app.runtime.nativeaot.win-x64.10.0.15.nupkg.sha512",
+    "C:\\Users\\v.br.ramachandran\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\10.0.15\\runtime.win-x64.microsoft.dotnet.ilcompiler.10.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

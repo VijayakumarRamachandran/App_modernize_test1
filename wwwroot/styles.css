@@ -1,0 +1,138 @@
+:root {
+  font-family: Inter, "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: #172033;
+  background: #f4f7fb;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+.welcome-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 32px 20px;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(74, 144, 226, 0.16), transparent 28%),
+    radial-gradient(circle at 85% 85%, rgba(124, 92, 246, 0.13), transparent 30%),
+    #f4f7fb;
+}
+
+.welcome-card {
+  width: min(680px, 100%);
+  padding: 64px;
+  border: 1px solid rgba(23, 32, 51, 0.08);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 24px 70px rgba(31, 48, 79, 0.12);
+  text-align: center;
+}
+
+.brand-mark {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #2864dc, #7c5cf6);
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  box-shadow: 0 12px 28px rgba(67, 99, 220, 0.28);
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: #4d63d7;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+h1 {
+  max-width: 540px;
+  margin: 0 auto;
+  font-size: clamp(38px, 7vw, 58px);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.subtitle {
+  max-width: 500px;
+  margin: 22px auto 32px;
+  color: #647087;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.button {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: 750;
+  text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button-primary {
+  background: #315ac8;
+  color: white;
+  box-shadow: 0 10px 24px rgba(49, 90, 200, 0.22);
+}
+
+.button-secondary {
+  border: 1px solid #d9dfeb;
+  background: white;
+  color: #31405d;
+}
+
+footer {
+  margin-top: 38px;
+  padding-top: 22px;
+  border-top: 1px solid #edf0f5;
+  color: #778196;
+  font-size: 14px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #34ad73;
+  box-shadow: 0 0 0 4px rgba(52, 173, 115, 0.12);
+}
+
+@media (max-width: 600px) {
+  .welcome-card {
+    padding: 42px 24px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+}
